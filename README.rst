@@ -3,7 +3,7 @@ Canonical project manager
 
 A set of commands to help switch web team projects.
 
-##Install
+## Install
 
 1. Add bash alias by editing ~/.bashrc
   `$ vim ~/.bachrc`
@@ -12,11 +12,12 @@ A set of commands to help switch web team projects.
 3. Then reload bashrc
   `$ source ~/.bashrc`
 
-##Usage
+## Usage
 
 `$ cpm ubuntu`
 
 Current projects supported
+
 * ubuntu - http://www.ubuntu.com
 * canonical - http://www.canonical.com
 
