@@ -3,20 +3,20 @@ Canonical project manager
 
 A set of commands to help switch web team projects.
 
-Install
-===============================
+##Install
 
-- Pull down this project
-- Add bash alias by editing ~/.bashrc
-- Enter alias do='sh ~/do.sh' save & close
-- Then reload bashrc by running $ source ~/.bashrc
+1. Add bash alias by editing ~/.bashrc
+  `$ vim ~/.bachrc`
+2. Add bash alias
+  `alias cpm='sh /path/to/cpm.sh`
+3. Then reload bashrc
+  `$ source ~/.bashrc`
 
-Usage
-===============================
+##Usage
 
-In terminal enter $ do ubuntu
+`$ cpm ubuntu`
 
-Current projects supported:
-- ubuntu - http://www.ubuntu.com
-- canonical - http://www.canonical.com
+Current projects supported
+* ubuntu - http://www.ubuntu.com
+* canonical - http://www.canonical.com
 
